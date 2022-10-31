@@ -1,0 +1,169 @@
+.background-image{
+    width: 100%;
+    height: 600px;
+    background: url(Images/Rock.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.text{
+    font-size: 100px;
+    color: rgb(226, 119, 43);
+    text-align: center;
+    padding-top: 200px
+};
+.iam{
+    color: white;
+    font-size: 70px;
+    padding: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.sound{
+    color: white;
+    font-size: 80px;
+    /* padding: 15px; */
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.fa-facebook{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color:  rgba(16, 16, 16, 0.6);
+    padding: 7px;
+    margin-right: 10px;
+    text-align: center;
+}
+.fa-twitter{ height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(16, 16, 16, 0.6);
+    padding: 7px;
+    margin-right: 10px;
+    align-items: center;
+    
+    
+
+}
+.fa-linkedin{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(16, 16, 16, 0.6
+    );
+    padding: 7px;
+    margin-right: 10px;
+    text-align: center;
+}
+.fa-instagram{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(16, 16, 16, 0.6);
+    padding: 7px;
+    margin-right: 10px;
+    text-align: center;
+}
+.fa-youtube{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(16, 16, 16, 0.5);
+    padding: 7px;
+    margin-right: 10px;
+    text-align: center;
+}
+/* .icon{
+    text-align: center;
+    color: white;
+} */
+.font{
+    text-align: center;
+    padding-top: 18px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(159, 158, 158,0.3);
+    /* margin-left: 140px; */
+    margin-top: 30px;
+}
+.card{
+    box-shadow: rgba(0,0,0,0.1) 2px 2px 0 0;
+}
+.card:hover .icon{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.raw {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.raw,
+.raw > .columna {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.columna {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.raw:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* .active, .dot:hover {
+    background-color: #717171;
+  } */
+
+.pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+.address{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: grey;
+    text-align: center;
+    padding-top: 15px;
+
+
+}
+.address:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;}
